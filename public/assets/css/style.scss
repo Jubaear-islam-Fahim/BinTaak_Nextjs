@@ -1,0 +1,249 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --primary: #006E99;
+    --gray: #ECF0F3;
+    --alice-blue: #E5F8FF;
+    --font2: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.section-content {
+    .title {
+        font-weight: 700;
+        font-size: 45px;
+        letter-spacing: 0.2px;
+        color: var(--black);
+    }
+}
+
+
+
+.navbar_top {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding: 25px 0;
+
+    .menuList {
+        gap: 10px;
+        margin-left: 40px;
+
+        .nav-link,
+        a {
+            color: var(--black);
+            font-weight: 500;
+            letter-spacing: 0.2px;
+            font-size: 18px;
+        }
+    }
+
+    .signLogBtn {
+        gap: 10px;
+
+        .nav-link,
+        a {
+            font-weight: 500;
+            letter-spacing: 0.2px;
+            color: var(--primary);
+            min-width: 92px;
+            height: 45px;
+            border: 1px solid var(--primary);
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            font-size: 18px;
+
+        }
+
+        .act {
+            background: var(--primary);
+            color: var(--white);
+        }
+    }
+}
+
+
+.banner_area {
+    background: var(--gray);
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    .banner_content {
+        .title {
+            font-weight: 800;
+            font-size: 54px;
+            line-height: 1.4;
+            letter-spacing: 0.2px;
+            color: #002533;
+        }
+
+        form {
+            display: inline-block;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 30px 0 25px;
+
+            input {
+                min-width: 445px;
+                height: 50px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+                letter-spacing: 0.2px;
+                color: #737373;
+                font-family: var(--font2);
+                padding: 0 15px;
+            }
+
+            button {
+                background: var(--primary);
+                color: var(--white);
+                font-weight: 700;
+                font-size: 14px;
+                text-align: center;
+                letter-spacing: 0.2px;
+                padding: 0 18px;
+                height: 50px;
+            }
+        }
+
+        ul {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            li {
+                a {
+                    background: var(--alice-blue);
+                    border: 1px solid var(--black);
+                    border-radius: 10px;
+                    color: var(--black);
+                    font-weight: 500;
+                    letter-spacing: 0.2px;
+                    height: 50px;
+                    padding: 0 15px;
+                    display: grid;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+
+
+.client_logo_area {
+    padding: 30px 0;
+
+    .client_logo_item {
+        height: 80px;
+        display: grid !important;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+.categories_area {
+    padding: 100px 0;
+    border-top: 10px solid var(--gray);
+
+    .categories_content {
+        margin-top: 50px;
+
+        .categories_item {
+            position: relative;
+            z-index: 1;
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 98%;
+                background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+                z-index: 1;
+            }
+
+            .imageC {
+                img {}
+            }
+
+            .textC {
+                position: absolute;
+                bottom: 7px;
+                z-index: 11;
+                width: 100%;
+                left: 0;
+                padding: 25px;
+
+                .h5 {
+                    color: var(--white);
+                }
+
+                p {
+
+                    color: var(--white);
+                }
+            }
+        }
+    }
+}
+
+
+
+.choose_platform_area {
+    background-image: url(../img/platform-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+    display: grid;
+    align-items: center;
+
+    .section-content {
+        padding-bottom: 30px;
+    }
+
+    .hire_form {
+        background-color: var(--alice-blue);
+        border-top: 10px solid var(--primary);
+        padding: 50px 35px;
+
+        .h4 {
+            padding: 13px 0 20px;
+            font-weight: 700;
+        }
+
+        .btn {
+            width: 300px;
+            height: 50px;
+            background: var(--primary);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-weight: 700;
+            letter-spacing: 0.1px;
+        }
+    }
+}
