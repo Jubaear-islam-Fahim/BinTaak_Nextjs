@@ -5,7 +5,7 @@ import categories1 from "../public/assets/img/c1.jpg"
 
 const Categories = () => {
     return (
-        <div className="categories_area">
+        <div className="categories_area pt-100 pb-100">
             <div className="container">
                 <div class="row">
                     <div class="col-lg-12">

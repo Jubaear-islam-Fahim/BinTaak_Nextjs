@@ -1,6 +1,10 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+
+// font awesome
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
 
 :root {
     --black: #000;
@@ -16,6 +20,18 @@ body {
     font-size: 16px;
     line-height: 1.4;
     font-weight: 500;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.bg_gray {
+    background-color: var(--gray);
 }
 
 .section-content {
@@ -161,7 +177,6 @@ body {
 
 
 .categories_area {
-    padding: 100px 0;
     border-top: 10px solid var(--gray);
 
     .categories_content {
@@ -247,3 +262,252 @@ body {
         }
     }
 }
+
+
+.work_plane_area {
+    .work_plane_content {
+        display: grid;
+        grid-template-columns: 63% 35%;
+        gap: 25px;
+    }
+
+    .work_plane_text {}
+
+    .work_plane_list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        margin-top: 40px;
+
+        .work_plane_item {
+            position: relative;
+
+            .number {
+                color: #CCF1FF;
+                font-family: 'Neonderthaw', cursive;
+                position: absolute;
+                font-size: 46px;
+                top: -33px;
+                left: -28px;
+                z-index: -1;
+            }
+
+            .h4 {
+                font-weight: 700;
+            }
+
+            p {}
+
+            .get_btn {
+                a {
+                    background: var(--primary);
+                    color: var(--white);
+                    font-size: 20px;
+                    font-weight: 600;
+                    height: 50px;
+                    display: inline-grid;
+                    align-items: center;
+                    padding: 0 30px;
+                    border-radius: 10px;
+
+                }
+            }
+        }
+    }
+
+    .work_plane_img {
+        background-image: url(../img/work.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        .play_i {
+            display: inline-grid;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+
+.services_area {
+    .about_sec {
+        display: flex;
+        align-items: center;
+    }
+
+    .filterS {
+        margin-left: auto;
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    .services_item {
+        background: #FFFFFF;
+        box-shadow: 0px 1px 2px rgba(97, 97, 97, 0.2), 0px 2px 4px rgba(97, 97, 97, 0.2);
+        padding: 20px;
+        margin-top: 25px;
+
+        .services_img {
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+
+            img {
+                border-radius: 10px;
+            }
+
+            .heart {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+
+                span {
+                    display: none;
+                    color: var(--white);
+                    border: 1px solid var(--white);
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 100px;
+                    text-align: center;
+                    padding: 4px 0;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+
+                .active {
+                    display: block;
+                }
+            }
+        }
+
+        .services_user {
+            display: flex;
+            align-items: center;
+
+            .use_img {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+
+                img {}
+
+                span {
+                    font-size: 14px;
+                }
+            }
+
+            .use_button {
+                margin-left: auto;
+
+                .use_btn {
+                    background-color: var(--alice-blue);
+                    border: 1px solid var(--black);
+                    border-radius: 10px;
+                    padding: 5px 10px;
+                    font-weight: 500;
+                    font-size: 12px;
+                    color: var(--black);
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .services_description {
+            padding: 24px 0;
+
+            p {
+                font-weight: 500;
+                font-size: 16px;
+                letter-spacing: 0.2px;
+                color: var(--black);
+            }
+        }
+
+        .services_footer {
+            border-top: 1px solid #B6B6B6;
+
+            ul {
+                display: flex;
+                gap: 10px;
+                padding-top: 15px;
+
+                li {
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+
+                .name_pri {
+                    span {
+                        color: #E71D1C;
+                    }
+                }
+
+                .star {
+                    margin-left: auto;
+                    color: #FABE63;
+
+                    span {
+                        color: #B6B6B6;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.Solution_area {
+    .solution_item {
+        background-color: var(--alice-blue);
+        padding: 45px 30px;
+        text-align: center;
+        margin-top: 25px;
+
+        img {
+            height: 60px !important;
+        }
+
+        .h5 {
+            font-weight: 600;
+            margin-top: 10px;
+        }
+    }
+}
+
+
+.team_area {
+    .team_content {
+        .team_item {
+            background: var(--white);
+            box-shadow: 0px 4px 8px rgba(97, 97, 97, 0.14), 0px 8px 16px rgba(97, 97, 97, 0.14);
+            padding: 30px 20px;
+            transition: all .3s;
+
+            img {}
+
+            .name {
+                font-weight: 700;
+                color: var(--black);
+                padding-bottom: 11px;
+                padding-top: 13px;
+            }
+
+            .description {
+                font-weight: 700;
+                color: var(--black);
+            }
+
+            &:hover {
+                border-radius: 20px;
+                background: var(--alice-blue);
+            }
+        }
+
+        
+    }
+}
+
+ 
