@@ -3,7 +3,7 @@ import Image from "next/image";
 import serv from "../public/assets/img/s1.jpg";
 import useI from "../public/assets/img/user.png";
 
-import { FaHeart, FaRegHeart } from "react-icons/fa"; 
+import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { BsFilter } from "react-icons/bs";
 
 const Services = () => {
@@ -45,7 +45,7 @@ const Services = () => {
                             <div className="services_footer">
                                 <ul>
                                     <li className="name_pri">Starting From <span>$ 400.00</span></li>
-                                    <li className="star"><i class="fa-solid fa-star"></i> 4.8 <span>(418)</span></li>
+                                    <li className="star"><i className="fa-solid fa-star"></i> 4.8 <span>(418)</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ const Services = () => {
                             <div className="services_footer">
                                 <ul>
                                     <li className="name_pri">Starting From <span>$ 400.00</span></li>
-                                    <li className="star"><i class="fa-solid fa-star"></i> 4.8 <span>(418)</span></li>
+                                    <li className="star"><i className="fa-solid fa-star"></i> 4.8 <span>(418)</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -103,7 +103,7 @@ const Services = () => {
                             <div className="services_footer">
                                 <ul>
                                     <li className="name_pri">Starting From <span>$ 400.00</span></li>
-                                    <li className="star"><i class="fa-solid fa-star"></i> 4.8 <span>(418)</span></li>
+                                    <li className="star"><i className="fa-solid fa-star"></i> 4.8 <span>(418)</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -132,7 +132,7 @@ const Services = () => {
                             <div className="services_footer">
                                 <ul>
                                     <li className="name_pri">Starting From <span>$ 400.00</span></li>
-                                    <li className="star"><i class="fa-solid fa-star"></i> 4.8 <span>(418)</span></li>
+                                    <li className="star"><i className="fa-solid fa-star"></i> 4.8 <span>(418)</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -161,7 +161,7 @@ const Services = () => {
                             <div className="services_footer">
                                 <ul>
                                     <li className="name_pri">Starting From <span>$ 400.00</span></li>
-                                    <li className="star"><i class="fa-solid fa-star"></i> 4.8 <span>(418)</span></li>
+                                    <li className="star"><i className="fa-solid fa-star"></i> 4.8 <span>(418)</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -190,7 +190,7 @@ const Services = () => {
                             <div className="services_footer">
                                 <ul>
                                     <li className="name_pri">Starting From <span>$ 400.00</span></li>
-                                    <li className="star"><i class="fa-solid fa-star"></i> 4.8 <span>(418)</span></li>
+                                    <li className="star"><i className="fa-solid fa-star"></i> 4.8 <span>(418)</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -219,7 +219,7 @@ const Services = () => {
                             <div className="services_footer">
                                 <ul>
                                     <li className="name_pri">Starting From <span>$ 400.00</span></li>
-                                    <li className="star"><i class="fa-solid fa-star"></i> 4.8 <span>(418)</span></li>
+                                    <li className="star"><i className="fa-solid fa-star"></i> 4.8 <span>(418)</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -248,7 +248,7 @@ const Services = () => {
                             <div className="services_footer">
                                 <ul>
                                     <li className="name_pri">Starting From <span>$ 400.00</span></li>
-                                    <li className="star"><i class="fa-solid fa-star"></i> 4.8 <span>(418)</span></li>
+                                    <li className="star"><i className="fa-solid fa-star"></i> 4.8 <span>(418)</span></li>
                                 </ul>
                             </div>
                         </div>

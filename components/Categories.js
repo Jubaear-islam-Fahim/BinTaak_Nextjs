@@ -7,8 +7,8 @@ const Categories = () => {
     return (
         <div className="categories_area pt-100 pb-100">
             <div className="container">
-                <div class="row">
-                    <div class="col-lg-12">
+                <div className="row">
+                    <div className="col-lg-12">
                         <div className="section-content">
                             <div className="h2 title">Most Popular Categories</div>
                         </div>
