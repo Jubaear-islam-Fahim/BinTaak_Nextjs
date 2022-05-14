@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import serv from "../public/assets/img/s1.jpg";
-import useI from "../public/assets/img/user.png";
+import serv from "../../public/assets/img/s1.jpg";
+import useI from "../../public/assets/img/user.png";
 
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { BsFilter } from "react-icons/bs";
@@ -21,7 +21,7 @@ const ServicesBest = () => {
                     </div>
                 </div>
                 <div className="row services_row pt-5">
-                    <div className="col-lg-3 col-md-6">
+                    <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="services_item">
                             <div className="services_img">
                                 <Image src={serv} alt="Services Images" />
@@ -50,7 +50,7 @@ const ServicesBest = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6">
+                    <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="services_item">
                             <div className="services_img">
                                 <Image src={serv} alt="Services Images" />
@@ -79,7 +79,7 @@ const ServicesBest = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6">
+                    <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="services_item">
                             <div className="services_img">
                                 <Image src={serv} alt="Services Images" />
@@ -108,7 +108,7 @@ const ServicesBest = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6">
+                    <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="services_item">
                             <div className="services_img">
                                 <Image src={serv} alt="Services Images" />

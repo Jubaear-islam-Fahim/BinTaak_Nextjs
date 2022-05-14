@@ -1,6 +1,6 @@
 
 import Image from "next/image"; 
-import play_button from "../public/assets/img/play-button-o.png";
+import play_button from "../../public/assets/img/play-button-o.png";
 
 const WorkPlanes = () => {
     return (

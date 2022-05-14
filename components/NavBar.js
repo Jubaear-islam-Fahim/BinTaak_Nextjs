@@ -1,11 +1,18 @@
+import React, { useEffect, useState } from 'react';
 import Image from "next/image";
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import logoHeader from "../public/assets/img/logo.png";
 
 const NavBar = () => {
+    const [scroll, setScroll] = useState(false);
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            setScroll(window.scrollY > 1);
+        });
+    }, []);
     return (
         <>
-            <Navbar expand="lg" className="navbar_top">
+            <Navbar expand="lg" className={scroll ? "navbar_top nabActive" : "navbar_top"}>
                 <Container>
                     <Navbar.Brand href="/">
                         <Image src={logoHeader} alt="Logo" />

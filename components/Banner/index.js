@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Slider from 'react-slick';
 
-import bannerOne from "../public/assets/img/banner1.png";
+import bannerOne from "../../public/assets/img/banner1.png";
 
 const Banner = () => {
     const bannerSlid = {
@@ -49,10 +49,7 @@ const Banner = () => {
                                     <div className="banner_item">
                                         <Image src={bannerOne} alt="banner images" />
                                     </div>
-                                </Slider>
-                                {/* <div className="banner_item">
-                  <Image src={bannerOne} alt="banner images" />
-                </div> */}
+                                </Slider> 
                             </div>
                         </div>
                     </div>

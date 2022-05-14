@@ -13,6 +13,10 @@ import ServicesLatest from "../components/ServicesLatest";
 import Solution from "../components/Solution";
 import Team from "../components/Team";
 import Testimonials from "../components/Testimonials";
+import Count from "../components/Count";
+import Guides from "../components/Guides";
+import Blog from "../components/Blog";
+import Footer from "../components/Footer";
 
 const index = () => { 
   return (
@@ -44,6 +48,14 @@ const index = () => {
       <Team/>
 
       <Testimonials/>
+
+      <Count/>
+
+      <Guides/>
+
+      <Blog/>
+
+      <Footer/>
 
     </>
   )

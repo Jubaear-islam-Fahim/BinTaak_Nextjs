@@ -1,12 +1,12 @@
 import Image from "next/image";
-import hireI from "../public/assets/img/hirei.png"
+import hireI from "../../public/assets/img/hirei.png"
 
 const ChoosePlatform = () => {
     return (
         <div className="choose_platform_area">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-5">
+                    <div className="col-xl-5 col-lg-6">
                         <div className="choose_platform_content">
                             <div className="section-content">
                                 <div className="h2 title">Choose Your Platform</div>
