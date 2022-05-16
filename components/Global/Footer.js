@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import logo from "../public/assets/img/logo.png";
+import logo from "../../public/assets/img/logo.png";
 
 import { FaLinkedinIn, FaTwitter, FaFacebookF } from "react-icons/fa";
 import { FcLink } from "react-icons/fc";
@@ -14,12 +14,12 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-6">
                         <div className="footer_widget">
                             <Image src={logo} alt="footer logo" />
-                            <p>We create Unique Experiences for <br/> Digital Businesses</p>
+                            <p>We create Unique Experiences for <br /> Digital Businesses</p>
                             <ul className="widget_social d-flex gap-3">
                                 <li><a><FaLinkedinIn /></a></li>
                                 <li><a><FaTwitter /></a></li>
-                                <li><a><FaFacebookF /></a></li> 
-                                <li><a><BsMessenger /></a></li> 
+                                <li><a><FaFacebookF /></a></li>
+                                <li><a><BsMessenger /></a></li>
                             </ul>
                         </div>
                     </div>

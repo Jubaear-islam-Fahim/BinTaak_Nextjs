@@ -1,9 +1,9 @@
 
 import Head from "next/head";
 
-import Navbar from "../components/NavBar";
+
 import Banner from "../components/Banner";
-import ClientLogo from "../components/ClientLogo"; 
+import ClientLogo from "../components/ClientLogo";
 import Categories from "../components/Categories";
 import ChoosePlatform from "../components/ChoosePlatform";
 import WorkPlanes from "../components/WorkPlanes";
@@ -16,46 +16,47 @@ import Testimonials from "../components/Testimonials";
 import Count from "../components/Count";
 import Guides from "../components/Guides";
 import Blog from "../components/Blog";
-import Footer from "../components/Footer";
+import NavBar from "../components/Global/NavBar";
+import Footer from "../components/Global/Footer";
 
-const index = () => { 
+const index = () => {
   return (
     <>
       <Head>
         <title>BinTaak Home</title>
       </Head>
 
-      <Navbar />
+      <NavBar />
 
       <Banner />
 
-      <ClientLogo/>
+      <ClientLogo />
 
-      <Categories/>
+      <Categories />
 
       <ChoosePlatform />
 
-      <WorkPlanes/>
+      <WorkPlanes />
 
-      <Services/>
+      <Services />
 
-      <ServicesBest/>
- 
-      <ServicesLatest/>
+      <ServicesBest />
 
-      <Solution/>
+      <ServicesLatest />
 
-      <Team/>
+      <Solution />
 
-      <Testimonials/>
+      <Team />
 
-      <Count/>
+      <Testimonials />
 
-      <Guides/>
+      <Count />
 
-      <Blog/>
+      <Guides />
 
-      <Footer/>
+      <Blog />
+
+      <Footer />
 
     </>
   )
