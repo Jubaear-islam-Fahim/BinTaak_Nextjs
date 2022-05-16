@@ -1,12 +1,56 @@
 import React from 'react';
 import NavBar from '../components/Global/NavBar';
+import Link from 'next/link';
+
+import { FcGoogle } from "react-icons/fc";
 
 const SignInPage = () => {
     return (
-        <>
+        <div className="signup_wrapper">
             <NavBar />
-            <h1 className='mt-5 pt-5 text-center'>Sing In Page</h1>
-        </>
+            <div className="signup_page_area">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="signup_box">
+                                <div className="signup_header">
+                                    <div className="mt-2 h3 fw-bold">Sign up</div>
+                                </div>
+                                <div className="signup_google_btn">
+                                    <button><FcGoogle/> Log in with Google</button>
+                                </div>
+                                <p className="text-center m-3 or_text">--- Or ---</p>
+                                <form>
+                                    <div className="form-floating mb-3">
+                                        <input type="text" name="name" className="form-control" id="floatingText" placeholder="Name" />
+                                        <label for="floatingText">Full Name</label>
+                                    </div>
+                                    <div className="form-floating mb-3">
+                                        <input type="email" name="email" className="form-control" id="floatingEmail" placeholder="example@mail.com" />
+                                        <label for="floatingEmail">example@mail.com</label>
+                                    </div>
+                                    <div className="form-floating">
+                                        <input type="password" name="password" className="form-control" id="floatingPassword" placeholder="at least 8 characters" />
+                                        <label for="floatingPassword">at least 8 characters</label>
+                                    </div>
+                                    <div className="form-check">
+                                        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                        <label className="form-check-label" for="flexCheckDefault">
+                                            I agree with <a href="">Terms</a> and <a href="">Privacy</a>
+                                        </label>
+                                    </div>
+                                    <button type="submit" className="sub_btn">Sign Up</button>
+                                </form>
+                                <div className="signup_footer">
+                                    <div className="h6">Already have an account?</div>
+                                    <Link href="/sign-up">Log In</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
     );
 };
 

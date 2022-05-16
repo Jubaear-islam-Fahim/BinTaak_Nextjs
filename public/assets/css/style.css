@@ -1033,4 +1033,143 @@ body {
   border-top: 2px solid #E5E5EA;
   padding: 30px 0px;
 }
+
+.signup_wrapper {
+  min-height: 100vh;
+  background-color: #ecf0f3;
+}
+
+.signup_wrapper .navbar_top {
+  padding: 10px 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 1px 2px rgba(97, 97, 97, 0.2), 0px 2px 4px rgba(97, 97, 97, 0.2);
+          box-shadow: 0px 1px 2px rgba(97, 97, 97, 0.2), 0px 2px 4px rgba(97, 97, 97, 0.2);
+}
+
+.signup_page_area {
+  padding-top: 90px;
+}
+
+.signup_page_area .signup_box {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 1.5rem;
+  background: var(--white);
+  -webkit-box-shadow: 0px 1px 2px rgba(97, 97, 97, 0.2), 0px 2px 4px rgba(97, 97, 97, 0.2);
+          box-shadow: 0px 1px 2px rgba(97, 97, 97, 0.2), 0px 2px 4px rgba(97, 97, 97, 0.2);
+}
+
+.signup_page_area .signup_header {
+  padding-bottom: 20px;
+}
+
+.signup_page_area .signup_google_btn button {
+  border: 1px solid #ced4da;
+  background: var(--white);
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.signup_page_area .form-check {
+  margin: 15px 0;
+}
+
+.signup_page_area .form-check a {
+  color: var(--primary);
+}
+
+.signup_page_area .sub_btn {
+  background: var(--primary);
+  color: var(--white);
+  width: 100%;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.signup_page_area .signup_footer {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.signup_page_area .signup_footer a {
+  color: var(--primary);
+  font-weight: 700;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.signup_page_area .form-check-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 0;
+  border: 1px solid var(--primary);
+}
+
+.signup_page_area .form-check-input:checked {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+.signup_page_area .or_text {
+  position: relative;
+}
+
+.signup_page_area .forgot_pass {
+  padding: 15px 0;
+  text-align: right;
+}
+
+.signup_page_area .forgot_pass a {
+  color: var(--primary);
+}
+
+input,
+button,
+textarea {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  outline: none !important;
+  border-color: var(--gray) !important;
+}
+
+.form-floating > .form-control:focus,
+.form-floating > .form-control:not(:placeholder-shown) {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.form-floating > .form-control {
+  padding: 0.7rem 1.15rem;
+}
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+  opacity: .65;
+  -webkit-transform: scale(1) translateY(-1.5rem) translateX(0rem);
+          transform: scale(1) translateY(-1.5rem) translateX(0rem);
+}
+
+.form-floating > label {
+  left: .5rem;
+  padding: 0.8rem 0.75rem;
+  color: #292929;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form-floating > .form-control,
+.form-floating > .form-select {
+  height: calc(3.1rem + 0px);
+  line-height: 2.25;
+}
 /*# sourceMappingURL=style.css.map */
