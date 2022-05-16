@@ -28,7 +28,6 @@ const NavBar = () => {
                         <Nav className="ms-auto signLogBtn">
                             <Link href="/sign-in"><a className='nav-link'>Sign In</a></Link>
                             <Link href="/sign-up"><a className='nav-link act'>Join</a></Link>
-                            {/* <Nav.Link href="#link" className=""></Nav.Link> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
