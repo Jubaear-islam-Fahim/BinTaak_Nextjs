@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import NavBar from '../components/Global/NavBar';
 import Link from 'next/link';
 
 import { FcGoogle } from "react-icons/fc";
+import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 
 const SignInPage = () => {
+    const [state, setstate] = useState(false);
+    const toggleBtn = () => {
+        setstate(prevState => !prevState);
+    }
     return (
         <div className="signup_wrapper">
             <NavBar />
@@ -29,9 +34,12 @@ const SignInPage = () => {
                                         <input type="email" name="email" className="form-control" id="floatingEmail" placeholder="example@mail.com" />
                                         <label for="floatingEmail">example@mail.com</label>
                                     </div>
-                                    <div className="form-floating">
-                                        <input type="password" name="password" className="form-control" id="floatingPassword" placeholder="at least 8 characters" />
+                                    <div className="form-floating"> 
+                                        <input type={state ? "text" : "password"} name="password" className="form-control" id="floatingPassword" placeholder="at least 8 characters" />
                                         <label for="floatingPassword">at least 8 characters</label>
+                                        <div className="pass_btn" onClick={toggleBtn}>
+                                            {state ? <AiOutlineEyeInvisible/> : <AiOutlineEye/>}
+                                        </div>
                                     </div>
                                     <div className="form-check">
                                         <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
