@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import NavBar from '../components/Global/NavBar';
 import Link from 'next/link';
 
 import { FcGoogle } from "react-icons/fc";
+import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 
 const SignUp = () => {
+
+    const [state, setstate] = useState(false);
+    const toggleBtn = () => {
+        setstate(prevState => !prevState);
+    }
+
     return (
         <div className="signup_wrapper">
             <NavBar />
@@ -26,8 +33,11 @@ const SignUp = () => {
                                         <label for="floatingEmail">Enter Your Email</label>
                                     </div>
                                     <div className="form-floating">
-                                        <input type="password" name="password" className="form-control" id="floatingPassword" placeholder="Enter Your Password" />
+                                        <input type={state ? "text" : "password"} name="password" className="form-control" id="floatingPassword" placeholder="Enter Your Password" />
                                         <label for="floatingPassword">Enter Your Password</label>
+                                        <div className="pass_btn" onClick={toggleBtn}>
+                                            {state ? <AiOutlineEyeInvisible/> : <AiOutlineEye/>}
+                                        </div>
                                     </div> 
                                     <div className="forgot_pass">
                                         <a href="">Forgot Password?</a>

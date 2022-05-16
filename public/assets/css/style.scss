@@ -1117,16 +1117,32 @@ body {
         border-color: var(--primary) !important;
 
     }
-    .or_text{
+
+    .or_text {
         position: relative;
 
     }
-    .forgot_pass{
+
+    .forgot_pass {
         padding: 15px 0;
         text-align: right;
-        a{
+
+        a {
             color: var(--primary);
         }
+    }
+
+    .pass_btn {
+        position: absolute;
+        right: 0;
+        top: 0px;
+        font-size: 21px;
+        cursor: pointer;
+        height: 100%;
+        width: 40px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
     }
 }
 
