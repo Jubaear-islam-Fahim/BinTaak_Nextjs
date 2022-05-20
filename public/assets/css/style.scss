@@ -9,7 +9,7 @@
 :root {
     --black: #000;
     --white: #fff;
-    --primary: #006E99;
+    --primary: #00A7E7;
     --gray: #ECF0F3;
     --alice-blue: #E5F8FF;
     --font2: 'Montserrat', sans-serif;
@@ -367,8 +367,6 @@ body {
         gap: 25px;
     }
 
-    .work_plane_text {}
-
     .work_plane_list {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -391,8 +389,6 @@ body {
             .h4 {
                 font-weight: 700;
             }
-
-            p {}
 
             .get_btn {
                 a {
@@ -505,8 +501,6 @@ body {
                 align-items: center;
                 gap: 5px;
 
-                img {}
-
                 span {
                     font-size: 14px;
                 }
@@ -603,8 +597,6 @@ body {
             padding: 30px 20px;
             transition: all .3s;
             margin: 12px;
-
-            img {}
 
             .name {
                 font-weight: 700;
@@ -953,8 +945,6 @@ body {
 
     .footer_widget {
         margin-bottom: 50px;
-
-        img {}
 
         p {
             font-weight: 600;
