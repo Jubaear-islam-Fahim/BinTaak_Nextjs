@@ -2,13 +2,15 @@ import React, { useState } from 'react';
 import { FcGoogle } from "react-icons/fc";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import Link from 'next/link';
+import useAuth from '../../../Hooks/useAuth';
 
 const LoginMain = () => {
-
     const [state, setstate] = useState(false);
     const toggleBtn = () => {
         setstate(prevState => !prevState);
     }
+
+    const { SignInWithGoogle } = useAuth()
 
     return (
         <div className="signup_page_area">
@@ -20,7 +22,7 @@ const LoginMain = () => {
                                 <div className="mt-2 h3 fw-bold">Login</div>
                             </div>
                             <div className="signup_google_btn">
-                                <button><FcGoogle /> Log in with Google</button>
+                                <button onClick={SignInWithGoogle}><FcGoogle /> Log in with Google</button>
                             </div>
                             <p className="text-center m-3 or_text">--- Or ---</p>
                             <form>
