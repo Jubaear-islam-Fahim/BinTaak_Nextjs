@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import logoHeader from "../../public/assets/img/logo.png";
 import Link from 'next/link';
+import useAuth from '../../Hooks/useAuth';
 
 const NavBar = () => {
     const [scroll, setScroll] = useState(false);
@@ -11,6 +12,10 @@ const NavBar = () => {
             setScroll(window.scrollY > 1);
         });
     }, []);
+
+    const { user, logOutUser } = useAuth()
+
+
     return (
         <>
             <Navbar expand="lg" className={scroll ? "navbar_top nabActive" : "navbar_top"}>
@@ -26,8 +31,17 @@ const NavBar = () => {
                             <Nav.Link href="">All Plans</Nav.Link>
                         </Nav>
                         <Nav className="ms-auto signLogBtn">
-                            <Link href="/sign-in"><a className='nav-link'>Sign In</a></Link>
-                            <Link href="/sign-up"><a className='nav-link act'>Join</a></Link>
+                            {
+                                !user ? <>
+                                    <Link href="/sign-in"><a className='nav-link'>Sign In</a></Link>
+                                    <Link href="/sign-up"><a className='nav-link act'>Join</a></Link>
+                                </>
+                                    :
+                                    <div>
+                                        <Image className='rounded-pill' width={50} height={50} src={user.photoURL} alt="" />
+                                    </div>
+                            }
+
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
