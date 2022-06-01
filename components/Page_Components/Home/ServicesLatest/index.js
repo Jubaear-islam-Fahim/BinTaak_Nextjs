@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import serv from "../../public/assets/img/s1.jpg";
-import useI from "../../public/assets/img/user.png";
+import serv from "/public/assets/img/s1.jpg";
+import useI from "/public/assets/img/user.png";
 
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { BsFilter } from "react-icons/bs";

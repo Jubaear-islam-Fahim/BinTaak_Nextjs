@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-import blog1 from "../../public/assets/img/b1.png";
-import blog2 from "../../public/assets/img/b2.png";
-import blog3 from "../../public/assets/img/bb1.png";
-import blog4 from "../../public/assets/img/bb2.png";
-import blog5 from "../../public/assets/img/bb3.png";
-import blog6 from "../../public/assets/img/bb4.png";
+import blog1 from "/public/assets/img/b1.png";
+import blog2 from "/public/assets/img/b2.png";
+import blog3 from "/public/assets/img/bb1.png";
+import blog4 from "/public/assets/img/bb2.png";
+import blog5 from "/public/assets/img/bb3.png";
+import blog6 from "/public/assets/img/bb4.png";
 
 const Blog = () => {
     return (

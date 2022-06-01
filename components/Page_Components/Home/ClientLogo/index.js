@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Slider from 'react-slick';
 
-import c1 from "../../public/assets/img/cl1.png";
-import c2 from "../../public/assets/img/cl2.png";
-import c3 from "../../public/assets/img/cl3.png";
-import c4 from "../../public/assets/img/cl4.png";
-import c5 from "../../public/assets/img/cl100.png";
+import c1 from "/public/assets/img/cl1.png";
+import c2 from "/public/assets/img/cl2.png";
+import c3 from "/public/assets/img/cl3.png";
+import c4 from "/public/assets/img/cl4.png";
+import c5 from "/public/assets/img/cl100.png";
 
 const ClientLogo = () => {
     const clientLogo = {

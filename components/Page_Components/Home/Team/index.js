@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Slider from 'react-slick';
 
-import team from "../../public/assets/img/team.png";
+import team from "/public/assets/img/team.png";
 
 const Team = () => {
     const teamSlid = {

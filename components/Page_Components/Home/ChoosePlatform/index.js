@@ -1,5 +1,5 @@
 import Image from "next/image";
-import hireI from "../../public/assets/img/hirei.png"
+import hireI from "/public/assets/img/hirei.png"
 
 const ChoosePlatform = () => {
     return (

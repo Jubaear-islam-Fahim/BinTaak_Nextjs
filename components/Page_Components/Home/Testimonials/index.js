@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Slider from 'react-slick';
 
-import t1 from "../../public/assets/img/t1.png";
+import t1 from "/public/assets/img/t1.png";
 
 import { BsStarFill } from "react-icons/bs";
 

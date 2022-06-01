@@ -43,9 +43,19 @@ body {
     }
 }
 
+.phone-block{
+    display: none;
+}
+
 @media (max-width: 991.98px) {
     .section-content .title {
         font-size: 34px;
+    }
+    .desktop-block{
+        display: none;
+    }
+    .phone-block{
+        display: block;
     }
 
 }
@@ -98,6 +108,8 @@ body {
 
     .signLogBtn {
         gap: 10px;
+        display: flex;
+        align-items: center;
 
         .nav-link,
         a {
@@ -121,7 +133,71 @@ body {
             color: var(--white);
         }
     }
+    .phone-icon {
+        margin-left: auto;
+        margin-right: 20px;
+        a.nav-link {
+            min-width: 60px;
+            height: 40px;
+            border-radius: 5px;
+        }
+    }
 }
+
+.user-dropdown {
+    #dropdown-basic {
+        background: none;
+        padding: 0;
+        border: 0;
+        outline: none;
+        display: flex;
+        align-items: center;
+
+        img {
+            border: 1px solid rgba(0, 0, 0, 0.2) !important;
+            border-radius: 100% !important;
+        }
+
+        &::after {
+            display: none;
+        }
+    }
+    .dropdown-menu {
+        width: 240px;
+        padding: 14px 5px;
+        gap: 29px;
+        border: 0;
+        box-shadow: 10px 0 50px rgba(18, 25, 33, 0.15);
+        position: absolute;
+        margin-top: 18px;
+        &::before {
+            content: '';
+            position: absolute;
+            top: -7px;
+            right: 18px;
+            width: 15px;
+            height: 15px;
+            background-color: #fff;
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+            z-index: -1;
+        }
+        a.dropdown-item {
+            padding: 8px 15px;
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            font-size: 15px;
+            &:active,
+            &:hover{
+                background-color: var(--primary);
+                color: var(--white);
+            }
+
+        }
+    }
+}
+
 
 
 .nabActive {

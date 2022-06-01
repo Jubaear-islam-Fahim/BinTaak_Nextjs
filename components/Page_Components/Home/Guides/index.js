@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import guides1 from "../../public/assets/img/g1.jpg";
+import guides1 from "/public/assets/img/g1.jpg";
 
 const Guides = () => {
     return (

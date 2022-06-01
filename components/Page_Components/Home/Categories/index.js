@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 
-import categories1 from "../../public/assets/img/c1.jpg"
+import categories1 from "/public/assets/img/c1.jpg"
 
 const Categories = () => {
     return (

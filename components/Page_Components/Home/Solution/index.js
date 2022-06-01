@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import solution1 from "../../public/assets/img/solution1.png";
-import solution2 from "../../public/assets/img/solution2.png";
-import solution3 from "../../public/assets/img/solution3.png";
-import solution4 from "../../public/assets/img/solution4.png";
+import solution1 from "/public/assets/img/solution1.png";
+import solution2 from "/public/assets/img/solution2.png";
+import solution3 from "/public/assets/img/solution3.png";
+import solution4 from "/public/assets/img/solution4.png";
 
 const Solution = () => {
     return (

@@ -2,20 +2,20 @@
 import Head from "next/head";
 
 
-import Banner from "../components/Banner";
-import ClientLogo from "../components/ClientLogo";
-import Categories from "../components/Categories";
-import ChoosePlatform from "../components/ChoosePlatform";
-import WorkPlanes from "../components/WorkPlanes";
-import Services from "../components/Services";
-import ServicesBest from "../components/ServicesBest";
-import ServicesLatest from "../components/ServicesLatest";
-import Solution from "../components/Solution";
-import Team from "../components/Team";
-import Testimonials from "../components/Testimonials";
-import Count from "../components/Count";
-import Guides from "../components/Guides";
-import Blog from "../components/Blog";
+import Banner from "../components/Page_Components/Home/Banner";
+import ClientLogo from "../components/Page_Components/Home/ClientLogo";
+import Categories from "../components/Page_Components/Home/Categories";
+import ChoosePlatform from "../components/Page_Components/Home/ChoosePlatform";
+import WorkPlanes from "../components/Page_Components/Home/WorkPlanes";
+import Services from "../components/Page_Components/Home/Services";
+import ServicesBest from "../components/Page_Components/Home/ServicesBest";
+import ServicesLatest from "../components/Page_Components/Home/ServicesLatest";
+import Solution from "../components/Page_Components/Home/Solution";
+import Team from "../components/Page_Components/Home/Team";
+import Testimonials from "../components/Page_Components/Home/Testimonials";
+import Count from "../components/Page_Components/Home/Count";
+import Guides from "../components/Page_Components/Home/Guides";
+import Blog from "../components/Page_Components/Home/Blog";
 import NavBar from "../components/Global/NavBar";
 import Footer from "../components/Global/Footer";
 

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Slider from 'react-slick';
 
-import bannerOne from "../../public/assets/img/banner1.png";
+import bannerOne from "/public/assets/img/banner1.png";
 
 const Banner = () => {
     const bannerSlid = {
