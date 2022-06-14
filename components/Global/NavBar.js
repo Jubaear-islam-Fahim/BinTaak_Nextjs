@@ -42,6 +42,7 @@ const NavBar = () => {
                                         <Dropdown.Menu align="end">
                                             <Dropdown.Item href="#"><FaUserAlt /> My Profile</Dropdown.Item>
                                             <Dropdown.Item href="#"><FaEdit /> Edit Profile</Dropdown.Item>
+                                            <Dropdown.Item href="#"><AiFillSetting /> Manage Services</Dropdown.Item>
                                             <Dropdown.Item href="#"><FaEnvelope /> Inbox</Dropdown.Item>
                                             <Dropdown.Item href="#"><AiFillSetting /> Settings</Dropdown.Item>
                                             <Dropdown.Item href="#"><FaQuestionCircle /> Help</Dropdown.Item>
@@ -57,7 +58,7 @@ const NavBar = () => {
                         <Nav className="me-auto menuList">
                             <Nav.Link href="">About</Nav.Link>
                             <Nav.Link href="">What We Do</Nav.Link>
-                            <Nav.Link href="">All Plans</Nav.Link>
+                            <Nav.Link><Link href="/services">All Services</Link></Nav.Link>
                         </Nav>
                         <Nav className="ms-auto desktop-block">
                             {
@@ -76,6 +77,7 @@ const NavBar = () => {
                                             <Dropdown.Menu align="end">
                                                 <Dropdown.Item href="#"><FaUserAlt /> My Profile</Dropdown.Item>
                                                 <Dropdown.Item href="#"><FaEdit /> Edit Profile</Dropdown.Item>
+                                                <Dropdown.Item href="#"><AiFillSetting /> Manage Services</Dropdown.Item>
                                                 <Dropdown.Item href="#"><FaEnvelope /> Inbox</Dropdown.Item>
                                                 <Dropdown.Item href="#"><AiFillSetting /> Settings</Dropdown.Item>
                                                 <Dropdown.Item href="#"><FaQuestionCircle /> Help</Dropdown.Item>

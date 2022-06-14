@@ -9,6 +9,7 @@ const Testimonials = () => {
     const TestimonialsSlid = { 
         dots: true,
         slickNext: true,
+        arrows: false,
         infinite: true,
         speed: 500,
         slidesToShow: 4,

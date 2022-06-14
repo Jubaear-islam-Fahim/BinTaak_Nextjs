@@ -6,7 +6,8 @@ import team from "/public/assets/img/team.png";
 const Team = () => {
     const teamSlid = {
         dots: true,
-        slickNext: true,
+        slickNext: false,
+        arrows: false,
         infinite: true,
         speed: 500,
         slidesToShow: 4,

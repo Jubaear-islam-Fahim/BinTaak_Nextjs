@@ -1,16 +1,16 @@
 import React, { useState } from 'react'; 
 import NavBar from '../components/Global/NavBar';
 import Footer from '../components/Global/Footer';
-import Services_Details from '../components/Page_Components/Services/ServicesDetails';
+import All_Services from '../components/Page_Components/Services/AllServices';
 
-const ServicesDetails = () => {
+const AllServices = () => {
     return (
         <div className="single_wrapper">
             <NavBar/>
-            <Services_Details/>
+            <All_Services/>
             <Footer/>
         </div>
     );
 }
 
-export default ServicesDetails;
+export default AllServices;
