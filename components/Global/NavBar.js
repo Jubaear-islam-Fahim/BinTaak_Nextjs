@@ -55,11 +55,17 @@ const NavBar = () => {
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto menuList">
-                            <Link tabindex="0" role="button" className='nav-link' href="/">About</Link>
-                            <Link tabindex="0" role="button" className='nav-link' href="/">What We Do</Link>
-                            <Link tabindex="0" role="button" className='nav-link' href="/services">All Services</Link>
-                        </Nav>
+                        <ul className="me-auto navbar-nav menuList">
+                            <li className="nav-item me-3">
+                                <Link tabindex="0" role="button" className='nav-link' href="/">About</Link>
+                            </li>
+                            <li className="nav-item me-3">
+                                <Link tabindex="0" role="button" className='nav-link' href="/">What We Do</Link>
+                            </li>
+                            <li className="nav-item me-3">
+                                <Link tabindex="0" role="button" className='nav-link' href="/services">All Services</Link>
+                            </li>
+                        </ul>
                         <Nav className="ms-auto desktop-block">
                             {
                                 !user ?
