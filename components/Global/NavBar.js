@@ -56,9 +56,9 @@ const NavBar = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto menuList">
-                            <Nav.Link href="">About</Nav.Link>
-                            <Nav.Link href="">What We Do</Nav.Link>
-                            <Nav.Link><Link href="/services">All Services</Link></Nav.Link>
+                            <Link tabindex="0" role="button" className='nav-link' href="/">About</Link>
+                            <Link tabindex="0" role="button" className='nav-link' href="/">What We Do</Link>
+                            <Link tabindex="0" role="button" className='nav-link' href="/services">All Services</Link>
                         </Nav>
                         <Nav className="ms-auto desktop-block">
                             {
