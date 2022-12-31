@@ -1,4 +1,4 @@
-
+import '../styles/remixicon.css';
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Slick Slider

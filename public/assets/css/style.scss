@@ -41,6 +41,7 @@ body {
 .bg_gray {
     background-color: var(--gray);
 }
+
 .primary-c {
     color: var(--primary);
 }
@@ -1326,15 +1327,16 @@ textarea {
             .h5 {
                 font-weight: 600;
             }
-            .check{
-                svg{
+
+            .check {
+                svg {
                     color: #198754;
                     margin-right: 5px;
                 }
             }
 
         }
-    } 
+    }
 
     .plan-btn {
         a {
@@ -1349,38 +1351,43 @@ textarea {
             gap: 10px;
             color: var(--white);
         }
-        .chat-btn{
+
+        .chat-btn {
             background-color: #198754;
         }
     }
 
 }
 
-@media (max-width: 991.98px){
-    .services-price { 
+@media (max-width: 991.98px) {
+    .services-price {
         margin-top: 50px;
     }
 }
 
-@media (max-width: 575.98px){
+@media (max-width: 575.98px) {
     .services-price .service-plan {
         padding: 20px 10px;
     }
-    .services-price .service-plan .plan-content .h4, .services-price .service-plan .plan-content .h5 { 
+
+    .services-price .service-plan .plan-content .h4,
+    .services-price .service-plan .plan-content .h5 {
         font-size: 16px;
     }
 }
 
 
-.input-form{
+.input-form {
     position: relative;
-    input{
+
+    input {
         width: 100%;
         height: 55px;
         padding: 20px;
         padding-right: 60px;
     }
-    button{
+
+    button {
         height: 100%;
         width: 60px;
         position: absolute;
@@ -1388,5 +1395,145 @@ textarea {
         top: 0;
         background: none;
         color: #6c6c6c;
+    }
+}
+
+
+// Contact area
+
+.ptb-70 {
+    padding: 70px 0px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.contact-area {
+    position: relative;
+    z-index: 1;
+
+    .box-btn {
+        padding: 12px 20px;
+        background: #00A7E7;
+        border: 1px solid #006E99;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+        border-radius: 8px;
+        color: #fff;
+        text-align: center;
+        transition: 0.4s ease all;
+
+        &:hover {
+            background: #fff;
+            color: var(--primary);
+        }
+    }
+
+    .form-group {
+        label {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            color: #344054;
+            font-family: var(--font2);
+            margin-bottom: 10px;
+        }
+
+        .form-control {
+            padding: 12px 16px;
+            border: 1px solid #D0D5DD;
+
+            &::placeholder {
+                color: #667085;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .title {
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+
+        h2 {
+            color: var(--primary);
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 5px;
+        }
+
+        h3 {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 60px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #667085;
+        }
+    }
+
+    .single-contact {
+        padding: 15px;
+        margin-bottom: 20px;
+
+        i {
+            color: var(--primary);
+            font-size: 25px;
+
+        }
+
+        .office {
+            font-family: var(--font2);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #101828;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        span {
+            font-family: var(--font2);
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            color: #667085;
+            display: block;
+
+
+        }
+
+        .location {
+            margin-top: 15px;
+            font-family: var(--font2);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: var(--primary);
+        }
+
+        .phone {
+            margin-top: 15px;
+            display: block;
+            font-family: var(--font2);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: var(--primary);
+        }
     }
 }

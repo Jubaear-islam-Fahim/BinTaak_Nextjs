@@ -1,7 +1,6 @@
 
 import Head from "next/head";
 
-
 import Banner from "../components/Page_Components/Home/Banner";
 import ClientLogo from "../components/Page_Components/Home/ClientLogo";
 import Categories from "../components/Page_Components/Home/Categories";
