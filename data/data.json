@@ -1,0 +1,108 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "title": "Website Link Building And Generating Traffic",
+            "price": "400.00",
+            "rate": "4.8",
+            "comment": "188",
+            "category": "Website Design",
+            "userImg": "/assets/img/user.png",
+            "user": "bintaak",
+            "url": "/assets/img/s1.png"
+        },
+        {
+            "id": 2,
+            "title": "Website Link Building And Generating Traffic",
+            "price": "400.00",
+            "rate": "4.8",
+            "comment": "188",
+            "category": "Website Design",
+            "userImg": "/assets/img/user.png",
+            "user": "bintaak",
+            "url": "/assets/img/s1.png"
+        },
+        {
+            "id": 3,
+            "title": "Website Link Building And Generating Traffic",
+            "price": "400.00",
+            "rate": "4.8",
+            "comment": "188",
+            "category": "Website Design",
+            "userImg": "/assets/img/user.png",
+            "user": "bintaak",
+            "url": "/assets/img/s1.png"
+        },
+        {
+            "id": 4,
+            "title": "Website Link Building And Generating Traffic",
+            "price": "400.00",
+            "rate": "4.8",
+            "comment": "188",
+            "category": "Website Design",
+            "userImg": "/assets/img/user.png",
+            "user": "bintaak",
+            "url": "/assets/img/s1.png"
+        },
+        {
+            "id": 5,
+            "title": "Website Link Building And Generating Traffic",
+            "price": "400.00",
+            "rate": "4.8",
+            "comment": "188",
+            "category": "Website Design",
+            "userImg": "/assets/img/user.png",
+            "user": "bintaak",
+            "url": "/assets/img/s1.png"
+        },
+        {
+            "id": 5,
+            "title": "Website Link Building And Generating Traffic",
+            "price": "400.00",
+            "rate": "4.8",
+            "comment": "188",
+            "category": "Website Design",
+            "userImg": "/assets/img/user.png",
+            "user": "bintaak",
+            "url": "/assets/img/s1.png"
+        }
+    ],
+    "reviews": [
+        {
+            "id": 1,
+            "rate": "5",
+            "userImg": "/assets/img/review.png",
+            "user": "Hamid_ahmed",
+            "location": "United State",
+            "date": "12/12/2022",
+            "desc": "Lorem ipsum dolor sit amet consectetur. Lorem cursus ornare turpis d`ellentesque a quam suspendisse. Lorem ipsum dolor sit amet consectetur. Lorem cursus ornare turpis d`ellentesque a quam suspendisse. Lorem ipsum dolor sit amet consectetur. Lorem cursus ornare turpis d`ellentesque a quam suspendisse."
+        },
+        {
+            "id": 2,
+            "rate": "5",
+            "userImg": "/assets/img/review.png",
+            "user": "Hamid_ahmed",
+            "location": "United State",
+            "date": "12/12/2022",
+            "desc": "Lorem ipsum dolor sit amet consectetur. Lorem cursus ornare turpis d`ellentesque a quam suspendisse. Lorem ipsum dolor sit amet consectetur. Lorem cursus ornare turpis d`ellentesque a quam suspendisse. Lorem ipsum dolor sit amet consectetur. Lorem cursus ornare turpis d`ellentesque a quam suspendisse."
+        },
+        {
+            "id": 3,
+            "rate": "5",
+            "userImg": "/assets/img/review.png",
+            "user": "Hamid_ahmed",
+            "location": "United State",
+            "date": "12/12/2022",
+            "desc": "Lorem ipsum dolor sit amet consectetur. Lorem cursus ornare turpis d`ellentesque a quam suspendisse. Lorem ipsum dolor sit amet consectetur. Lorem cursus ornare turpis d`ellentesque a quam suspendisse. Lorem ipsum dolor sit amet consectetur. Lorem cursus ornare turpis d`ellentesque a quam suspendisse."
+        },
+        {
+            "id": 4,
+            "rate": "5",
+            "userImg": "/assets/img/review.png",
+            "user": "Hamid_ahmed",
+            "location": "United State",
+            "date": "12/12/2022",
+            "desc": "Lorem ipsum dolor sit amet consectetur. Lorem cursus ornare turpis d`ellentesque a quam suspendisse. Lorem ipsum dolor sit amet consectetur. Lorem cursus ornare turpis d`ellentesque a quam suspendisse. Lorem ipsum dolor sit amet consectetur. Lorem cursus ornare turpis d`ellentesque a quam suspendisse."
+        }
+    ]
+}
