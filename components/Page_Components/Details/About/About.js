@@ -20,7 +20,7 @@ const About = () => {
                         {aboutTop.titleTop}
                     </p>
 
-                    <h6>I provide :</h6>
+                    <h6 className='mb-4'>I provide :</h6>
 
                     <ul>
                         {

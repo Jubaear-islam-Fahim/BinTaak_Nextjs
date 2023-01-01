@@ -2,16 +2,16 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import data from '../../../../data/data.json';
 const Service = () => {
-    const [service, setService] = useState(data.services)
+    const [service, setService] = useState(data.recommend)
     return (
         <>
             <div className="services">
-                <h2 className='title'> Hazrat’s Bins</h2>
+                <h2 className='title'>Recommended For You</h2>
                 <div className="row">
                     {
                         service.map(service =>
                             <>
-                                <div className="col-lg-4 col-md-6">
+                                <div className="col-lg-3 col-md-6">
                                     <div className="single-service">
                                         <div className="img">
                                             <div className="icon">

@@ -1589,6 +1589,29 @@ textarea {
   position: relative;
 }
 
+.service-details-area .box-btn {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  background: var(--primary);
+  text-align: center;
+  width: 100%;
+  display: block;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--primary);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.service-details-area .box-btn:hover {
+  background: #fff;
+  color: var(--primary);
+}
+
 .service-details-area .title-area {
   position: relative;
   margin-top: 30px;
@@ -1728,6 +1751,7 @@ textarea {
 .service-details-area .about-area .content .title-top {
   font-weight: 400;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .service-details-area .about-area .content h6 {
@@ -1753,6 +1777,244 @@ textarea {
   margin-right: 10px;
   position: absolute;
   left: 0;
+}
+
+.service-details-area .plan-area {
+  position: relative;
+  border: 1px solid #EAEAEA;
+  border-radius: 10px;
+}
+
+.service-details-area .plan-area .title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.service-details-area .plan-area .flex-column.nav.nav-pills {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: space-evenly !important;
+      -ms-flex-pack: space-evenly !important;
+          justify-content: space-evenly !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.service-details-area .plan-area .flex-column {
+  -webkit-box-orient: unset !important;
+  -webkit-box-direction: unset !important;
+      -ms-flex-direction: unset !important;
+          flex-direction: unset !important;
+}
+
+.service-details-area .plan-area .nav-pills .nav-link.active,
+.service-details-area .plan-area .nav-pills .show > .nav-link {
+  color: black !important;
+  background-color: #fff !important;
+  padding: 0 !important;
+}
+
+.service-details-area .plan-area .nav-pills .nav-link.active i,
+.service-details-area .plan-area .nav-pills .show > .nav-link i {
+  color: var(--primary) !important;
+}
+
+.service-details-area .plan-area .nav-pills .nav-link.active .ri-checkbox-blank-circle-line:before,
+.service-details-area .plan-area .nav-pills .show > .nav-link .ri-checkbox-blank-circle-line:before {
+  content: "\f19f";
+}
+
+.service-details-area .plan-area .nav-link {
+  padding: 0 !important;
+  color: #000 !important;
+}
+
+.service-details-area .plan-area .nav-link i {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.service-details-area .plan-area .package {
+  padding: 30px;
+}
+
+.service-details-area .plan-area .package p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 15px;
+}
+
+.service-details-area .plan-area .package .pack {
+  padding: 15px 0;
+}
+
+.service-details-area .plan-area .package .pack li {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.service-details-area .plan-area .package .pack li h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.service-details-area .plan-area p.time i {
+  position: relative;
+  top: 2px;
+  margin-right: 3px;
+}
+
+.service-details-area .plan-area .items {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.service-details-area .plan-area .items li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.service-details-area .plan-area .items i {
+  color: var(--primary);
+}
+
+.service-details-area .seller-top {
+  position: relative;
+  margin-top: 30px;
+}
+
+.service-details-area .seller-top .single-seller-one {
+  position: relative;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.service-details-area .seller-top .single-seller-one .dropdown {
+  text-align: center;
+}
+
+.service-details-area .seller-top .single-seller-one button#dropdown-basic {
+  background: #fff;
+  border: none;
+  color: #000;
+}
+
+.service-details-area .seller-top .single-seller {
+  position: relative;
+  padding: 30px;
+  border: 1px solid #eaeaea;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.service-details-area .seller-top .single-seller a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.service-details-area .seller-top .single-seller .icon i {
+  color: #137C43;
+  font-size: 60px;
+}
+
+.service-details-area .main-seller {
+  position: relative;
+  margin-top: 50px;
+}
+
+.service-details-area .main-seller h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 30px;
+}
+
+.service-details-area .main-seller .single {
+  position: relative;
+  padding: 30px;
+  border: 1px solid #eaeaea;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.service-details-area .main-seller .single .img {
+  width: 70px;
+  height: 70px;
+}
+
+.service-details-area .main-seller .single .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.service-details-area .main-seller .single p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.service-details-area .main-seller .single .map {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.service-details-area .main-seller .single .border-btn {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+  padding: 5px 10px;
+  border: 1px solid #B6B6B6;
+  border-radius: 3px;
+  background: #fff;
+  margin-bottom: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.service-details-area .main-seller .single .border-btn:hover {
+  background: var(--primary);
+  color: #fff;
+}
+
+.service-details-area .main-seller .single ul li {
+  color: #FABE63;
+  font-size: 13px;
+}
+
+.service-details-area .main-seller .single ul li span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  color: #B6B6B6;
+}
+
+.service-details-area .main-seller .single .desc {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .profile-area-home {
@@ -2147,7 +2409,7 @@ textarea {
 }
 
 .review-area .single-review .desc {
-  margin-top: 20px;
+  margin-top: 5px;
   padding-left: 30px;
   line-height: 24px;
   font-weight: 400;

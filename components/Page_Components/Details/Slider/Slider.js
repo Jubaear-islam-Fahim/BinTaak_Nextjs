@@ -6,7 +6,9 @@ const Slider = () => {
             <h1>hi from slider</h1>
             <br />
             <br />
-            <br />
+
+            <img src="assets/img/b1.png" alt="about" />
+
             <br />
             <br />
             <br />

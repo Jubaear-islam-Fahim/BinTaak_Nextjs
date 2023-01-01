@@ -4,10 +4,12 @@ import Footer from '../components/Global/Footer';
 import NavBar from '../components/Global/NavBar';
 import About from '../components/Page_Components/Details/About/About';
 import Faq from '../components/Page_Components/Details/Faq/Faq';
+import Plan from '../components/Page_Components/Details/Plan/Plan';
+import Seller from '../components/Page_Components/Details/Seller/Seller';
+import Service from '../components/Page_Components/Details/Service/Service';
 import Slider from '../components/Page_Components/Details/Slider/Slider';
 import Title from '../components/Page_Components/Details/Title/Title';
 import Review from '../components/Page_Components/Profile/Review/Review';
-import Service from '../components/Page_Components/Profile/Service/Service';
 
 const details = () => {
     return (
@@ -25,15 +27,17 @@ const details = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <Slider />
-                            <About/>
+                            <About />
                         </div>
                         <div className="col-lg-6">
-                            
+                            <Plan />
+                            <Seller />
+
                         </div>
                     </div>
-                    <Faq/>
-                    <Review/>
-                    <Service/>
+                    <Faq />
+                    <Review />
+                    <Service />
                 </div>
             </div>
 
