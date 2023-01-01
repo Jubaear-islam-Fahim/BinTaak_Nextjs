@@ -56,7 +56,7 @@
             "url": "/assets/img/s1.png"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Website Link Building And Generating Traffic",
             "price": "400.00",
             "rate": "4.8",
@@ -103,6 +103,114 @@
             "location": "United State",
             "date": "12/12/2022",
             "desc": "Lorem ipsum dolor sit amet consectetur. Lorem cursus ornare turpis d`ellentesque a quam suspendisse. Lorem ipsum dolor sit amet consectetur. Lorem cursus ornare turpis d`ellentesque a quam suspendisse. Lorem ipsum dolor sit amet consectetur. Lorem cursus ornare turpis d`ellentesque a quam suspendisse."
+        }
+    ],
+    "recommend": [
+        {
+            "id": 1,
+            "title": "Website Link Building And Generating Traffic",
+            "price": "400.00",
+            "rate": "4.8",
+            "comment": "188",
+            "category": "Website Design",
+            "userImg": "/assets/img/user.png",
+            "user": "bintaak",
+            "url": "/assets/img/s1.png"
+        },
+        {
+            "id": 2,
+            "title": "Website Link Building And Generating Traffic",
+            "price": "400.00",
+            "rate": "4.8",
+            "comment": "188",
+            "category": "Website Design",
+            "userImg": "/assets/img/user.png",
+            "user": "bintaak",
+            "url": "/assets/img/s1.png"
+        },
+        {
+            "id": 3,
+            "title": "Website Link Building And Generating Traffic",
+            "price": "400.00",
+            "rate": "4.8",
+            "comment": "188",
+            "category": "Website Design",
+            "userImg": "/assets/img/user.png",
+            "user": "bintaak",
+            "url": "/assets/img/s1.png"
+        },
+        {
+            "id": 4,
+            "title": "Website Link Building And Generating Traffic",
+            "price": "400.00",
+            "rate": "4.8",
+            "comment": "188",
+            "category": "Website Design",
+            "userImg": "/assets/img/user.png",
+            "user": "bintaak",
+            "url": "/assets/img/s1.png"
+        }
+    ],
+    "faq": [
+        {
+            "id": 1,
+            "eventkey": "0",
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        },
+        {
+            "id": 2,
+            "eventkey": "1",
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        },
+        {
+            "id": 3,
+            "eventkey": "2",
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        },
+        {
+            "id": 4,
+            "eventkey": "3",
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        },
+        {
+            "id": 5,
+            "eventkey": "4",
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        }
+    ],
+    "about": [
+        {
+            "id": 1,
+            "item": "Custom Website Design that will reflect the business in a distinctive way to engage your audiences"
+        },
+        {
+            "id": 2,
+            "item": "Responsive design for both mobile and desktop"
+        },
+        {
+            "id": 3,
+            "item": "Both e-commerce and non-ecommerce website"
+        },
+        {
+            "id": 4,
+            "item": "Any type of content can be inserted"
+        },
+        {
+            "id": 5,
+            "item": "Video tutorial if needed"
+        },
+        {
+            "id": 6,
+            "item": "Speed Optimization"
+        },
+        {
+            "id": 7,
+            "item": "7 days a week availability"
         }
     ]
 }

@@ -1623,6 +1623,112 @@ textarea {
             }
         }
     }
+
+    .single-review {
+        .img {
+            margin-left: auto;
+        }
+
+        .content {
+            padding-left: 0px !important;
+        }
+
+        .desc {
+            padding-left: 15px !important;
+        }
+    }
+
+    .faq-area {
+        position: relative;
+
+        .title {
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 80px;
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+
+        .accordion-item:not(:first-of-type) {
+            border: 1px solid #DBDBDB;
+        }
+
+        .accordion-item {
+            margin-bottom: 10px;
+            border-radius: 7px;
+
+            .accordion-button::after {
+                background-image: none !important;
+                content: "+";
+            }
+
+            .accordion-button:not(.collapsed)::after {
+                background-image: none !important;
+                content: "-";
+            }
+
+            .accordion-header {
+                .accordion-button {
+                    padding: 20px;
+                    font-weight: 500 !important;
+                    font-size: 22px;
+                    color: var(--black) !important;
+                    background: #fff !important;
+                }
+            }
+
+            .accordion-body {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+
+    }
+
+    .about-area {
+        position: relative;
+
+        .title {
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 30px;
+            margin-bottom: 30px;
+        }
+
+        .content {
+            .title-top , {
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+
+            h6 {
+                font-size: 16px;
+                font-weight: 400;
+                margin-bottom: 10px;
+            }
+
+            ul {
+                position: relative;
+
+                li {
+                    padding-left: 20px;
+
+                    i {
+                        font-size: 6px;
+                        margin-right: 10px;
+                        position: absolute;
+                        left: 0;
+                    }
+
+                    line-height: 30px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
 }
 
 
@@ -1851,7 +1957,7 @@ textarea {
                 .user-img {
                     width: 40px !important;
                     height: 40px !important;
-                    margin-right: 5px;
+                    margin-right: 10px;
                 }
 
                 span {
@@ -1929,6 +2035,7 @@ textarea {
     }
 }
 
+// Review area
 .review-area {
     position: relative;
 
@@ -2002,6 +2109,10 @@ textarea {
         .desc {
             margin-top: 20px;
             padding-left: 30px;
+            line-height: 24px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
         }
     }
 }

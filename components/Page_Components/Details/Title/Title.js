@@ -33,6 +33,7 @@ const Title = () => {
                         <a href="#" className="border-btn"><i className="ri-heart-3-line"></i>Save</a>
                     </div>
                 </div>
+                <hr />
             </div>
         </>
     );
