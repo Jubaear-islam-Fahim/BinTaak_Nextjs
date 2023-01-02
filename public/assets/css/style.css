@@ -2673,6 +2673,11 @@ textarea {
   vertical-align: middle;
 }
 
+.dashboard-area .active-area h3 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 .dashboard-area .summary-area {
   position: relative;
   max-width: 95%;
@@ -2725,5 +2730,304 @@ textarea {
 .dashboard-area .summary-area .single-summary.active {
   background: -webkit-gradient(linear, left top, left bottom, from(#0092CC), to(rgba(255, 255, 255, 0)));
   background: linear-gradient(180deg, #0092CC 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.order-area-home {
+  position: relative;
+}
+
+.order-area-home .delivery-area {
+  position: relative;
+  border: 1px solid #B6B6B6;
+  border-radius: 10px;
+}
+
+.order-area-home .delivery-area h3 {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 15px 30px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.order-area-home .delivery-area .content {
+  position: relative;
+  padding: 20px;
+  padding-top: 0;
+}
+
+.order-area-home .delivery-area .content h6 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.order-area-home .delivery-area .content a.box-btn {
+  padding: 8px 20px;
+  background: #00A7EB;
+  border: 1px solid #00A7EB;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  -webkit-transition: 0.4s ease all;
+  transition: 0.4s ease all;
+  width: 100%;
+  display: block;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.order-area-home .delivery-area .content a.box-btn:hover {
+  background: #fff;
+  color: var(--primary);
+}
+
+.order-area-home .delivery-area .content .border-btn {
+  margin-top: 15px;
+  padding: 8px 20px;
+  background: #fff;
+  border: 1px solid #B6B6B6;
+  border-radius: 4px;
+  color: #5A5A5A;
+  text-align: center;
+  -webkit-transition: 0.4s ease all;
+  transition: 0.4s ease all;
+  width: 100%;
+  display: block;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.order-area-home .delivery-area .content .border-btn:hover {
+  background: var(--primary);
+  color: #fff;
+  border: 1px solid var(--primary);
+}
+
+.order-area-home .order-details-area {
+  position: relative;
+  border: 1px solid #B6B6B6;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.order-area-home .order-details-area h3 {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 15px 30px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.order-area-home .order-details-area .content {
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+  padding-top: 10px;
+}
+
+.order-area-home .order-details-area .content .img {
+  width: 100px;
+  height: 70px;
+  overflow: hidden;
+}
+
+.order-area-home .order-details-area .content .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 4px;
+}
+
+.order-area-home .order-details-area .content h4 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  display: block;
+}
+
+.order-area-home .order-details-area .content span {
+  margin-top: 10px;
+  padding: 3px 8px;
+  display: inline-block;
+  background: #56EF9C;
+  border-radius: 18px;
+  color: #000;
+  font-weight: 400;
+}
+
+.order-area-home .profile-list {
+  margin-top: 30px;
+}
+
+.order-area-home .profile-list li {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 8px;
+}
+
+.order-area-home .profile-list li .name {
+  background: #fff;
+  color: var(--primary);
+}
+
+.order-area-home .profile-list li i {
+  margin-right: 2px;
+  position: relative;
+  top: 2px;
+}
+
+.order-area-home .order-action {
+  position: relative;
+  border: 1px solid #B6B6B6;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.order-area-home .order-action h3 {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 15px 30px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.order-area-home .order-action .content {
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+  padding-top: 10px;
+}
+
+.order-area-home .order-action .content .accordion-item {
+  border: none !important;
+}
+
+.order-area-home .order-action .content .accordion-body {
+  font-size: 14px;
+}
+
+.order-area-home .order-action .content .accordion-button:not(.collapsed) {
+  background: #fff;
+}
+
+.order-area-home .order-action .content .accordion-button {
+  padding: 0;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #5A5A5A;
+}
+
+.order-area-home .order-action .content .accordion-button i {
+  color: #000 !important;
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.order-area-home .order-table-area {
+  position: relative;
+  border: 1px solid #B6B6B6;
+  border-radius: 10px;
+}
+
+.order-area-home .order-table-area .title-area {
+  padding: 30px;
+  padding-bottom: 10px;
+}
+
+.order-area-home .order-table-area .title-area h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 15px;
+}
+
+.order-area-home .order-table-area .title-area .order-id {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #847F7F;
+}
+
+.order-area-home .order-table-area .title-area .top li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #847F7F;
+}
+
+.order-area-home .order-table-area .title-area .top li span {
+  color: var(--primary);
+  margin-right: 20px;
+}
+
+.order-area-home .order-table-area .order {
+  position: relative;
+}
+
+.order-area-home .order-table-area .order .table > :not(caption) > * > * {
+  padding-bottom: 25px;
+  margin-top: 15px;
+  padding-left: 25px;
+}
+
+.order-area-home .order-table-area .order .data {
+  border-top: 1px solid #E4E4E4;
+}
+
+.order-area-home .order-table-area .order .total {
+  border-top: 1px solid #E4E4E4;
+}
+
+.order-area-home .order-table-area .order .total td {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.order-area-home .order-table-area .order td {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.order-area-home .order-table-area .order .table {
+  margin-bottom: 0 !important;
+}
+
+.order-area-home .order-table-area .order .table-body {
+  padding-top: 20px;
+  border-top: 1px solid #E4E4E4;
+}
+
+.order-area-home .order-table-area .order h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.order-area-home .order-table-area .order ul {
+  padding-left: 30px;
+}
+
+.order-area-home .order-table-area .order ul li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.order-area-home .order-table-area .order ul li i {
+  color: var(--primary);
 }
 /*# sourceMappingURL=style.css.map */

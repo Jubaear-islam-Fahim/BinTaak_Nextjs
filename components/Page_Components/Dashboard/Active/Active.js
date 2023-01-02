@@ -37,7 +37,7 @@ const Active = () => {
                                 <td>01/12/2022</td>
                                 <td>$500</td>
                                 <td> <span className='progress'>Unpaid</span></td>
-                                <td> <span className='view'> View</span></td>
+                                <td> <span >  <a className='view' href="#">View</a></span></td>
                             </tr>
                         </tbody>
                     </Table>
@@ -75,7 +75,7 @@ const Active = () => {
                                 <td>01/12/2022</td>
                                 <td>$500</td>
                                 <td> <span className='progress'>Unpaid</span></td>
-                                <td> <span className='view'> View</span></td>
+                                <td> <span > <a   className='view'href="#">View</a></span></td>
                             </tr>
                         </tbody>
                     </Table>
