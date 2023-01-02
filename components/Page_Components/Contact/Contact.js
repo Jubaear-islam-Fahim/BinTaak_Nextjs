@@ -49,6 +49,9 @@ const Contact = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className="qr">
+                                <img src="/assets/img/qr.png" alt="qr" />
+                            </div>
                         </div>
 
                         <div className="col-lg-6">
