@@ -1491,28 +1491,28 @@ textarea {
 .contact-area .form-group .form-control::-webkit-input-placeholder {
   color: #667085;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
 }
 
 .contact-area .form-group .form-control:-ms-input-placeholder {
   color: #667085;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
 }
 
 .contact-area .form-group .form-control::-ms-input-placeholder {
   color: #667085;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
 }
 
 .contact-area .form-group .form-control::placeholder {
   color: #667085;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
 }
 
@@ -3030,5 +3030,205 @@ textarea {
 
 .order-area-home .order-table-area .order ul li i {
   color: var(--primary);
+}
+
+.settings-area-home {
+  position: relative;
+}
+
+.settings-area-home .profile-area {
+  position: relative;
+  border: 1px solid #B6B6B6;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.settings-area-home .profile-area .badge {
+  position: relative;
+  padding: 5px 10px;
+  background: #56EF9C;
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #5A5A5A;
+  margin-bottom: 20px;
+  text-align: left !important;
+  display: inline-block !important;
+}
+
+.settings-area-home .profile-area .profile {
+  position: relative;
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.settings-area-home .profile-area .profile .pro-img {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.settings-area-home .profile-area .profile .pro-img a {
+  position: absolute;
+  bottom: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  right: 40px;
+  font-size: 25px;
+}
+
+.settings-area-home .profile-area .profile .pro-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.settings-area-home .profile-area .profile p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.settings-area-home .profile-area .profile p i {
+  color: var(--primary);
+  position: relative;
+  top: 2px;
+}
+
+.settings-area-home .profile-area .profile span {
+  font-weight: 400;
+  text-align: center !important;
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 5px;
+}
+
+.settings-area-home .profile-area .profile .map {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  line-height: 16px;
+}
+
+.settings-area-home .profile-area .profile .map i {
+  color: #000;
+}
+
+.settings-area-home .profile-area .profile ul.rate {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3px;
+}
+
+.settings-area-home .profile-area .profile ul.rate li {
+  color: #FABE63;
+  font-size: 13px;
+}
+
+.settings-area-home .profile-area .profile ul.rate .ratenumber {
+  color: #FABE63;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.settings-area-home .profile-area .profile ul.rate .number {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #B6B6B6;
+  margin-left: 5px;
+}
+
+.settings-area-home .profile-right-area {
+  margin-top: 30px;
+  position: relative;
+  border: 1px solid #B6B6B6;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.settings-area-home .profile-right-area button#dropdown-basic {
+  background: #fff !important;
+  color: #333 !important;
+  text-align: left !important;
+}
+
+.settings-area-home .profile-right-area .field-area {
+  position: relative;
+  border: 1px solid #B6B6B6;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.settings-area-home .profile-right-area .field-area .form-control {
+  padding: 12px 16px;
+  border: 1px solid #D0D5DD;
+}
+
+.settings-area-home .profile-right-area .field-area .form-control::-webkit-input-placeholder {
+  color: #667085;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.settings-area-home .profile-right-area .field-area .form-control:-ms-input-placeholder {
+  color: #667085;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.settings-area-home .profile-right-area .field-area .form-control::-ms-input-placeholder {
+  color: #667085;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.settings-area-home .profile-right-area .field-area .form-control::placeholder {
+  color: #667085;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.settings-area-home .profile-right-area .field-area .box-btn {
+  width: 80px;
+  height: 25px;
+  background: var(--primary);
+  color: #fff;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.settings-area-home .profile-right-area .field-area .desc textarea {
+  height: 200px;
+  background: #FAFAFA;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.settings-area-home .profile-right-area .field-area .title {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */

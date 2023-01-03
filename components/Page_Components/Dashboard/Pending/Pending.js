@@ -10,15 +10,15 @@ const Pending = () => {
                         <h5><span>By</span> Hazrat Ali</h5>
                         <p>Order id #123445</p>
                     </div>
-                    <Table responsive>
+                    <Table>
                         <thead>
                             <tr>
-                                <th >Bin</th>
-                                <th>Order date</th>
-                                <th>Deliver date</th>
-                                <th>Price</th>
-                                <th>Status</th>
-                                <th>Action</th>
+                                <th  width="220">Bin</th>
+                                <th width="170">Order date</th>
+                                <th width="170">Deliver date</th>
+                                <th width="170">Price</th>
+                                <th width="170">Status</th>
+                                <th width="170">Action</th>
                             </tr>
                         </thead>
                         <tbody>

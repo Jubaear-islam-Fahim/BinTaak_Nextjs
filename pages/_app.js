@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import '../styles/globals.css';
 import '../public/assets/css/style.css';
+import '../public/assets/css/responsive.css';
 import NextNProgress from 'nextjs-progressbar';
 import AuthProvider from '../Context/AuthProvider/AuthProvider';
 

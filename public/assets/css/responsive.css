@@ -1,0 +1,225 @@
+/* Max width 767px */
+@media (max-width: 767px) {
+  .ptb-100 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .pt-100 {
+    padding-top: 50px;
+  }
+  .pb-100 {
+    padding-bottom: 50px;
+  }
+  .pt-70 {
+    padding-top: 20px;
+  }
+  .pb-70 {
+    padding-bottom: 20px;
+  }
+  .pb-130 {
+    padding-bottom: 40px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px !important;
+    line-height: 26px !important;
+  }
+  .contact-area .title h2 {
+    font-size: 18px;
+    letter-spacing: 03px;
+  }
+  .contact-area .title h3 {
+    font-size: 25px;
+    line-height: 45px;
+  }
+  .contact-area .title p {
+    font-size: 16px;
+  }
+  .contact-area .title {
+    margin-bottom: 30px;
+  }
+  .contact-area .single-contact .office {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .contact-area .single-contact .location {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .contact-area .single-contact {
+    margin-bottom: 0;
+  }
+  .contact-area .qr {
+    margin-top: 20px;
+  }
+  .contact-from {
+    padding: 15px;
+  }
+  .service-details-area {
+    position: relative;
+    padding-top: 80px !important;
+  }
+  .service-details-area .title-area h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  ol.breadcrumb {
+    margin-bottom: 5px !important;
+  }
+  .service-details-area .title-area .border-btn {
+    padding: 5px 15px;
+    margin-top: 10px !important;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .service-details-area .about-area .title {
+    font-size: 25px;
+    line-height: normal;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  .service-details-area .about-area .content h6 {
+    margin-bottom: 14px !important;
+  }
+  .service-details-area .plan-area {
+    margin-top: 35px;
+  }
+  .service-details-area .box-btn {
+    margin-bottom: 0;
+  }
+  .service-details-area .seller-top .single-seller {
+    padding: 20px;
+  }
+  .service-details-area .seller-top .single-seller .icon i {
+    font-size: 45px;
+  }
+  .service-details-area .seller-top .single-seller p {
+    font-size: 15px;
+    line-height: normal;
+  }
+  .service-details-area .seller-top .single-seller-one {
+    padding: 15px;
+  }
+  .service-details-area .main-seller h3 {
+    font-size: 25px;
+  }
+  .service-details-area .main-seller {
+    margin-top: 35px;
+  }
+  .service-details-area .main-seller .single {
+    padding: 20px;
+  }
+  .service-details-area .main-seller .single .desc {
+    font-size: 12px !important;
+  }
+  .service-details-area .main-seller .single .img {
+    width: 55px;
+    height: 55px;
+  }
+  .service-details-area .faq-area .title {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .service-details-area .faq-area .accordion-item .accordion-header .accordion-button {
+    padding: 15px;
+    font-size: 18px;
+  }
+  .service-details-area .faq-area .accordion-item .accordion-body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .service-details-area .plan-area .package {
+    padding: 20px;
+  }
+  .review-area .title {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .review-area .single-review {
+    padding: 20px;
+  }
+  .review-area .single-review .img {
+    width: 50px;
+    height: 50px;
+    margin-left: unset;
+  }
+  .review-area .single-review .content p {
+    font-size: 12px !important;
+  }
+  .review-area .single-review .content {
+    margin-top: 0;
+    margin-left: 0px;
+    padding-left: 0;
+  }
+  .review-area .single-review .rate li {
+    margin-top: 3px;
+    font-size: 16px;
+  }
+  .review-area .single-review .rate {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 0px;
+  }
+  .review-area .single-review .desc {
+    padding-left: 8px;
+  }
+  .services .title {
+    font-size: 25px;
+    line-height: normal;
+    margin-bottom: 30px;
+    margin-top: 35px !important;
+  }
+  .profile-area-home .profile-area {
+    margin-top: 60px;
+    padding: 20px;
+  }
+  .profile-area-home .profile-area .profile .pro-img img {
+    width: 150px;
+    height: 150px;
+  }
+  .order-area-home {
+    margin-top: 70px;
+  }
+  .order-area-home .order-table-area .title-area .top li {
+    font-size: 15px;
+  }
+  .order-area-home .order-table-area .title-area {
+    padding: 20px;
+  }
+  .order-area-home .order-table-area .title-area h3 {
+    font-size: 20px;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 7px;
+  }
+  .order-area-home .order-table-area .title-area .order-id {
+    font-size: 15px;
+  }
+  th {
+    display: table-cell !important;
+  }
+}
+
+/* Min width 576px to Max width 767px */
+/* Min width 768px to Max width 991px */
+/* Min width 992px to Max width 1200px */
+/* Max width 1800px */
+/*
+Continuer Custom Width Area Style*/
+@media only screen and (min-width: 1300px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1320px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

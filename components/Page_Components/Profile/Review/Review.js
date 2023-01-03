@@ -13,12 +13,12 @@ const Review = () => {
                         <>
                             <div className="single-review">
                                 <div className="row">
-                                    <div className="col-lg-1">
+                                    <div className="col-lg-1 col-2">
                                         <div className="img">
                                             <Image src={review.userImg} widthalt="" title="" width="100%" height="100%" layout="responsive" objectFit="cover" />
                                         </div>
                                     </div>
-                                    <div className="col-lg-11">
+                                    <div className="col-lg-11 col-10">
                                         <div className="row align-items-center">
                                             <div className="col-lg-7">
                                                 <div className="top-content d-flex align-items-center">
