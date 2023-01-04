@@ -26,7 +26,7 @@ const details = () => {
                     <Title />
                     <div className="row">
                         <div className="col-lg-6">
-                            {/* <Slider /> */}
+                            <Slider />
                             <About />
                         </div>
                         <div className="col-lg-6">
